@@ -16,8 +16,8 @@ function TodoSearch(){
         placeholder="Cebolla"
         value={searchValue}
         onChange={onSearchValueChange}
-        />,
+        />
     ];
 }
 
-export{TodoSearch};
+export { TodoSearch };
