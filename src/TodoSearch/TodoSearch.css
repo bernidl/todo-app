@@ -25,4 +25,6 @@
     outline-color: #61dafa;
 };
 
-
+.TodoSearch:disabled {
+    opacity: 25%;
+};
