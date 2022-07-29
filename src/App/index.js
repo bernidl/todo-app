@@ -11,7 +11,7 @@ import { Modal } from '../Modal';
 import { TodosError } from '../TodosError';
 import { TodosLoading } from '../TodosLoading';
 import { EmptyTodos } from '../EmptyTodos';
-import { ChangeAlertWithStorageListener } from '../ChangeAlert';
+import { ChangeAlert} from '../ChangeAlert';
 
 
 function App() {
@@ -83,7 +83,7 @@ function App() {
         
       />
 
-      <ChangeAlertWithStorageListener 
+      <ChangeAlert
         sincronize={sincronizeTodos}
       />
     </React.Fragment>
